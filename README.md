@@ -27,7 +27,15 @@ This toolkit extracts time series of key oceanographic variables at specific lat
 | Bonney Coast | -38.41° | 141.27° | Victoria |
 | Maria Island | -42.60° | 148.23° | Tasmania |
 
+![Station Map](charts/station_map.png)
+
 Data is accessed via THREDDS/OPeNDAP/ERDDAP APIs - no bulk downloads required. Scripts are resume-friendly and save incrementally.
+
+## Example Outputs
+
+![SST Seasonal Heatmap](charts/cross_region/sst_seasonal_heatmap.png)
+
+![CHL Comparison](charts/cross_region/chl_comparison.png)
 
 Data Download Scripts Provided by Dr N. A. Pittman (Emmi), and the joys of Open Science. PRs welcome!
 
